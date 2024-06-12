@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/css/site.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Yan's Profile|Home</title>
+</head>
+<body class="flex flex-col min-h-screen bg-bright-turquoise-50">
+<header class="px-10 pt-4 bg-bright-turquoise-100 fixed top-0 w-full z-8 text-pink-800">
+  <nav>
+    <ul class="max-w-7xl mx-auto px-4 flex items-center justify-between h-16 list-none p-0 m-0 md:px-40">
+      <li>
+        <a href="./index.html" class="w-full font-bold text-3xl">Yan Liu</a>
+      </li>
+      <!-- desktop menu -->
+      <li class="hidden md:flex md:space-x-10">
+        <section class="relative group">
+          <button class="text-lg underline">About Me</button>
+          <ul class="absolute left-0 hidden w-48 pt-4 rounded-md bg-bright-turquoise-100 shadow-lg group-hover:block">
+            <li><a href="./resume.html" class="block px-4 py-2">Resume</a></li>
+            <li><a href="./study_in_tafe.html" class="block px-4 py-2">Study in TAFE</a></li>
+            <li><a href="./contact.html" class="block px-4 py-2">Contact Me</a></li>
+          </ul>
+        </section>
+        <section class="relative group">
+          <button class="text-lg underline">My Studies</button>
+          <ul class="absolute left-0 hidden w-48 pt-4 bg-bright-turquoise-100 rounded-md shadow-lg group-hover:block">
+            <li><a href="./my_courses.html" class="block px-4 py-2">My Courses</a></li>
+            <li><a href="./sample_works.html" class="block px-4 py-2">Sample Works</a></li>
+          </ul>
+        </section>
+      </li>
+      <!-- Mobile menu button -->
+      <li>
+        <button id="mobile-menu-button" class="right-0 focus:outline-none md:hidden">
+          <i class="fa-solid fa-bars" style="font-size:28px"></i>
+        </button>
+      </li>
+    </ul>
+    <!-- Mobile menu -->
+    <ul id="mobile-menu" class="hidden pt-2 mb-5 md:hidden">
+      <li><h2 class="block pl-14 py-3 text-xl">About Me</h2></li>
+      <li><a href="./resume.html" class="block pl-28 py-2 text-lg">Resume</a></li>
+      <li><a href="./study_in_tafe.html" class="block pl-28 py-2 text-lg">Study in TAFE</a></li>
+      <li><a href="./contact.html" class="block pl-28 py-2 text-lg">Contact Me</a></li>
+      <li><h2 class="block pl-14 py-3 text-xl">My Studies</h2></li>
+      <li><a href="./my_courses.html" class="block pl-28 py-2 text-lg">My Courses</a></li>
+      <li><a href="./sample_works.html" class="block pl-28 py-2 text-lg">Sample Works</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="w-4/5 mx-auto pt-10 pd-8 md:w-3/5">
+  <article class="grid gap-4 md:grid-cols-2 md:items-center md:gap-10">
+    <img src="./assets/img/Yan.jpg" alt="Yan's Portrait"
+         class="mt-20 w-4/5 mx-auto rounded-lg md:mt-40 ">
+    <section class="my-8 w-4/5 mx-auto font-sans text-bright-turquoise-800 text-center text-l md:text-xl md:mt-44 ">
+      <p class="pb-6 text-pink-800 font-bold text-2xl">Hi, I'm Yan.</p>
+      <p class="pb-6"> Welcome to my personal site.</p>
+      <p class="pb-6">
+        I am a student at TAFE, studying for a Certificate IV in Information Technology (Programming) at the TAFE North
+        Metropolitan Perth Campus. </p>
+      <p> Here, you can find some interesting information about my study experience.</p>
+    </section>
+  </article>
+</main>
+<footer class="justify-center inset-x-0 absolute bottom-4">
+  <p class="text-sm text-center text-pink-800">© Copyright 2024 Yan Liu and TAFE WA AU. All rights reserved.</p>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

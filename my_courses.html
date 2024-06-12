@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link  rel="stylesheet" href="./assets/css/site.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Yan's Profile|My Courses</title>
+</head>
+<body class="bg-bright-turquoise-50">
+<header class="px-10 pt-4 bg-bright-turquoise-100 fixed top-0 w-full z-8 text-pink-800">
+  <nav>
+    <ul class="max-w-7xl mx-auto px-4 flex items-center justify-between h-16 list-none p-0 m-0 md:px-40">
+      <li>
+        <a href="./index.html" class="w-full font-bold text-3xl">Yan Liu</a>
+      </li>
+      <!-- desktop menu -->
+      <li class="hidden md:flex md:space-x-10">
+        <section class="relative group">
+          <button class="text-lg underline">About Me</button>
+          <ul class="absolute left-0 hidden w-48 pt-4 rounded-md bg-bright-turquoise-100 shadow-lg group-hover:block">
+            <li><a href="./resume.html" class="block px-4 py-2">Resume</a></li>
+            <li><a href="./study_in_tafe.html" class="block px-4 py-2">Study in TAFE</a></li>
+            <li><a href="./contact.html" class="block px-4 py-2">Contact Me</a></li>
+          </ul>
+        </section>
+        <section class="relative group">
+          <button class="text-lg underline">My Studies</button>
+          <ul class="absolute left-0 hidden w-48 pt-4 bg-bright-turquoise-100 rounded-md shadow-lg group-hover:block">
+            <li><a href="./my_courses.html" class="block px-4 py-2">My Courses</a></li>
+            <li><a href="./sample_works.html" class="block px-4 py-2">Sample Works</a></li>
+          </ul>
+        </section>
+      </li>
+      <!-- Mobile menu button -->
+      <li>
+        <button id="mobile-menu-button" class="right-0 focus:outline-none md:hidden">
+          <i class="fa-solid fa-bars" style="font-size:28px"></i>
+        </button>
+      </li>
+    </ul>
+    <!-- Mobile menu -->
+    <ul id="mobile-menu" class="hidden pt-2 mb-5 md:hidden">
+      <li><h2 class="block pl-14 py-3 text-xl">About Me</h2></li>
+      <li><a href="./resume.html" class="block pl-28 py-2 text-lg">Resume</a></li>
+      <li><a href="./study_in_tafe.html" class="block pl-28 py-2 text-lg">Study in TAFE</a></li>
+      <li><a href="./contact.html" class="block pl-28 py-2 text-lg">Contact Me</a></li>
+      <li><h2 class="block pl-14 py-3 text-xl">My Studies</h2></li>
+      <li><a href="./my_courses.html" class="block pl-28 py-2 text-lg">My Courses</a></li>
+      <li><a href="./sample_works.html" class="block pl-28 py-2 text-lg">Sample Works</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="w-4/5 mx-auto mt-28 text-bright-turquoise-800 md:w-3/5">
+  <article>
+    <section class="flex pb-10">
+      <i class="fa-solid fa-school" style="font-size:24px;color:pink"></i>
+      <h1 class="pl-4 text-pink-800 font-bold text-2xl">Courses I studied in TAFE</h1>
+    </section>
+    <section class="md:px-4">
+      <section class="flex pb-4">
+        <i class="fa-solid fa-rocket" style="font-size:22px;color:cornflowerblue"></i>
+        <h2 class="pl-2 font-bold text-xl">Certificate IV in Information Technology (Programming)</h2>
+      </section>
+      <ul role="list" class="marker:text-bright-turquoise-800 list-disc pl-8 text-lg grid gap-4 md:grid-cols-2">
+        <li class="pr-8">Comply with IP, ethics and privacy policies in ICT environments</li>
+        <li class="pr-8">Work collaboratively in the ICT industry</li>
+        <li class="pr-8">Apply advanced critical thinking to work processes</li>
+        <li class="pr-8">Identify and evaluate emerging technologies and practices</li>
+        <li class="pr-8">Identify and resolve client ICT problems</li>
+        <li class="pr-8">Contribute to cyber security risk management</li>
+        <li class="pr-8">Apply introductory programming techniques</li>
+        <li class="pr-8">Maintain open-source code programs</li>
+        <li class="pr-8">Apply intermediate programming skills in different languages</li>
+        <li class="pr-8">Use pre-existing components</li>
+        <li class="pr-8">Build a user interface</li>
+        <li class="pr-8">Develop mobile applications</li>
+        <li class="pr-8">Produce basic client-side script</li>
+        <li class="pr-8">Create a markup language document</li>
+        <li class="pr-8">Apply introductory programming skills in different languages</li>
+        <li class="pr-8">Test software developments</li>
+        <li class="pr-8">Apply introductory object-oriented language skills</li>
+        <li class="pr-8">Develop data-driven applications/li>
+        <li class="pr-8">Apply query language in relational databases</li>
+        <li class="pr-8">Use version control systems in development environments</li>
+      </ul>
+    </section>
+    <section class="pt-12 md:px-4">
+      <section class="flex pb-4">
+        <i class="fa-solid fa-rocket" style="font-size:22px;color:cornflowerblue"></i>
+        <h2 class="pl-2 font-bold text-xl">Certificate III in EAL</h2>
+      </section>
+      <ul role="list" class="marker:text-bright-turquoise-800 list-disc pl-8 text-lg grid gap-4 md:grid-cols-2">
+        <li class="pr-8">Engage in casual conversations and straightforward spoken transactions</li>
+        <li class="pr-8">Give and respond to a range of straightforward information and instructions</li>
+        <li class="pr-8">Read and write straightforward descriptive and narrative texts</li>
+        <li class="pr-8">Develop and document a learning plan and portfolio</li>
+        <li class="pr-8">Read and write straightforward informational and instructional texts</li>
+        <li class="pr-8">Investigate issues in the Australian environment</li>
+        <li class="pr-8">Investigate Australian art and culture</li>
+        <li class="pr-8">Produce simple word processed documents</li>
+      </ul>
+    </section>
+  </article>
+</main>
+<footer class="justify-center pt-10 pb-4 inset-x-0 md:absolute">
+  <p class="text-sm text-center text-pink-800">© Copyright 2024 Yan Liu and TAFE WA AU. All rights reserved.</p>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
